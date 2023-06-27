@@ -1,0 +1,96 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar start  li*/
+.navbar-brand{
+    color: white !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    padding: 5px;
+    box-shadow: 2px 1px 2px white;
+
+}
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    width: 99vw;
+}
+.nav-link{
+    color: white !important;
+   
+}
+/* carsusel start */
+.carousel-item img{
+    height: 88vh;
+}
+/* conatainer start */
+.services{
+    /* border: 1px solid red;  */
+    height: 100vh;
+}
+
+/* row1 */
+.services-cols{
+     /* border: 1px solid black;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-cols .card{
+    transition: all ease .5s;
+
+}
+.services-cols .card img{
+    height: 16rem;
+    
+}
+.services-cols .card:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 15px gray;
+    margin-top: -5rem;
+    opacity: .6;
+}
+/* container2 */
+.services1{
+    /* border: 1px solid green; */
+    height: 100vh;
+}
+/* row 2 */
+.services1-cols{
+    /* border: 1px solid green;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.services1-cols .card img{
+    height: 16rem;
+
+}
+.services1-cols .card{
+    transition: all ease .5s;
+}
+.services1-cols .card:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px gray;
+    margin-top: -5rem;
+    opacity: .6;
+}
+
+.inner-Abouts{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+.inner-Abouts img{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 300px;
+}
